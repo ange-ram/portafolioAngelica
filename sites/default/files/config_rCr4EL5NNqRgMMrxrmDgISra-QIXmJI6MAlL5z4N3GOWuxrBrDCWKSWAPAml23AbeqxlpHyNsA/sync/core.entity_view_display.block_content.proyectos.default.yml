@@ -1,0 +1,36 @@
+uuid: 1d6ecace-b1fb-4efb-b184-4d96fe690e79
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.proyectos
+    - field.field.block_content.proyectos.body
+    - field.field.block_content.proyectos.field_imagen
+  module:
+    - media
+    - text
+id: block_content.proyectos.default
+targetEntityType: block_content
+bundle: proyectos
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_imagen:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

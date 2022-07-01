@@ -1,0 +1,90 @@
+/** 
+	* Filename:     global.css
+	* Version:      1.0.0 (2022-04-04)
+	* Website:      https://www.zymphonies.com
+	* Description:  Global styles
+	* Author:		Zymphonies team
+					info@zymphonies.com
+**/
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 570px
+	}
+}
+
+@media (min-width: 767px) {
+	.container {
+		max-width: 1140px
+	}
+	.header {
+		padding: 20px;
+	}
+	.user-logged-in .main-header {
+		position: relative
+	}
+	.top-message {
+		display: block;
+	}
+	.flexslider .slider-caption {
+		display: block;
+		top: 0;
+		right: 0;
+		width: 50%;
+		padding: 30px;
+		background: #ff0;
+		color: #000;
+		left: auto;
+		bottom: 0;
+	}
+	.flexslider .flex-direction-nav {
+		display: block;
+		margin-top: -24px
+	}
+	.clients .region ul li {
+		width: 24%
+	}
+	.testimonials-wrap {
+		padding: 75px 0 55px
+	}
+	.region-search {
+		float: right;
+		width: 300px;
+		padding: 13px 0
+	}
+	.carousel-caption p,
+	.carousel-caption h3 {
+		display: block
+	}
+	.carousel-caption p:last-child {
+		margin: 0
+	}
+	.carousel-caption {
+		background-color: #fff;
+		background: rgba(0, 0, 0, 0.84);
+		color: #ddd;
+		text-shadow: none;
+		padding: 20px;
+		top: 20%;
+		left: 10%;
+		bottom: auto;
+		width: 30%;
+		text-align: left
+	}
+	.comment-wrap .author-details {
+		width: 10%
+	}
+	.comment-wrap .author-comments {
+		width: 90%
+	}
+	.social-media {
+		padding: 0px 0;
+		text-align: right
+	}
+}
+
+@media (min-width: 991px) {
+	.flexslider .slider-caption {
+		font-size: 2.5em;
+	}
+}

@@ -1,0 +1,11 @@
+uuid: 48f4e775-9863-4cb7-9b9d-2d1020a36649
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.proyectos
+id: block_content.proyectos
+target_entity_type_id: block_content
+target_bundle: proyectos
+default_langcode: site_default
+language_alterable: false

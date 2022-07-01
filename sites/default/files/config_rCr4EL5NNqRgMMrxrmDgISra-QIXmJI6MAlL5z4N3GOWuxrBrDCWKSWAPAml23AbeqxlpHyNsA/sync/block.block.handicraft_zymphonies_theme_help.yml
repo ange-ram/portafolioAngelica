@@ -1,0 +1,22 @@
+uuid: cee92ef4-cd80-4c27-ba9f-d3425d041183
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: 0qaTcjRyF0ans129ayg9EAjtiUeEnHXjuzt38ysX5xs
+id: handicraft_zymphonies_theme_help
+theme: handicraft_zymphonies_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

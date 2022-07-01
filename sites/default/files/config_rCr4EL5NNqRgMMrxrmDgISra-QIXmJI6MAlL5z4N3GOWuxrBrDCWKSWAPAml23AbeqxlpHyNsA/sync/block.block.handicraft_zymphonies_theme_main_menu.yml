@@ -1,0 +1,27 @@
+uuid: 3d0882ef-4021-4f28-9788-3e8a64ed5fb6
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: wb5nl7bqILfKbeJyLdsIkWpBu659Uqs0L6aDrMv2IEQ
+id: handicraft_zymphonies_theme_main_menu
+theme: handicraft_zymphonies_theme
+region: primary_menu
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

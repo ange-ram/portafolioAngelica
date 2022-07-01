@@ -1,0 +1,22 @@
+uuid: 7bcfdfe8-6b7d-471c-a28b-7935b63e69ad
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: zu4rp56CE-HOLBkBdKNpJenTuGKEYqFqELAhYp9d_dw
+id: handicraft_zymphonies_theme_powered
+theme: handicraft_zymphonies_theme
+region: auto_hidden_block
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

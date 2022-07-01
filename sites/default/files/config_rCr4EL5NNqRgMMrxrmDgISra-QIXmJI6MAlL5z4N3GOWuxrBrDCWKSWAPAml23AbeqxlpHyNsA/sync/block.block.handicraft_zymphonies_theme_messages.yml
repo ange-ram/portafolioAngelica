@@ -1,0 +1,22 @@
+uuid: 3e6c9ff8-6ee5-4dba-9ed8-b2e4528df67c
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: 2-psC89fTO57Z7ICmyfQ4j8Fw24b6CNxYwWlHtXDU8I
+id: handicraft_zymphonies_theme_messages
+theme: handicraft_zymphonies_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

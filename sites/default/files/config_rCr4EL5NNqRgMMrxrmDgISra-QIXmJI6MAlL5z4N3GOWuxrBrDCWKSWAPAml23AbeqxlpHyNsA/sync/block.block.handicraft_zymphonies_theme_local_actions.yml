@@ -1,0 +1,20 @@
+uuid: f2e8e9f2-f969-4c52-997f-64f0a4ec3f75
+langcode: es
+status: true
+dependencies:
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: Hx6W2Z9iJCpjqrtg6p0YIr1qF0-EX662yI4rV7CsazM
+id: handicraft_zymphonies_theme_local_actions
+theme: handicraft_zymphonies_theme
+region: auto_hidden_block
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

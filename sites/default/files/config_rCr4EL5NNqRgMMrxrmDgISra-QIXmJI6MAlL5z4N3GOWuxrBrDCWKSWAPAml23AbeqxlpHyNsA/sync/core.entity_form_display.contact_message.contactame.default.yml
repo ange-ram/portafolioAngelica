@@ -1,0 +1,41 @@
+uuid: 1f1ab15b-f981-4171-bd27-2f8b04f0ccb5
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.contactame
+id: contact_message.contactame.default
+targetEntityType: contact_message
+bundle: contactame
+mode: default
+content:
+  copy:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 12
+      placeholder: ''
+    third_party_settings: {  }
+  preview:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  mail: true
+  name: true

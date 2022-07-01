@@ -1,0 +1,10 @@
+uuid: ddee380d-a4e9-4a80-9c7d-c09eb3222765
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.prueba
+label: prueba
+targetEntityType: block_content
+cache: true

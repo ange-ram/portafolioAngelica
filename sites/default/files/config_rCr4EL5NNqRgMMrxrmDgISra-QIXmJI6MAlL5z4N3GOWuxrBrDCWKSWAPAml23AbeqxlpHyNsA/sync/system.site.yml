@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: es
+uuid: e03d9991-467c-4902-865b-d378e04b4d2a
+name: 'Portafolio '
+mail: ange.ramlean@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/10
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: es

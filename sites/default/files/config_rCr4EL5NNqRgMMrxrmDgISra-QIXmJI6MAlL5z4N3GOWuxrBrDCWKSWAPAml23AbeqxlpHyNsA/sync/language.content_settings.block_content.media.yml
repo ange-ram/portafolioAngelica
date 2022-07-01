@@ -1,0 +1,11 @@
+uuid: db6e2ba6-dbbc-4ea5-ade1-1f599f966691
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.media
+id: block_content.media
+target_entity_type_id: block_content
+target_bundle: media
+default_langcode: site_default
+language_alterable: false

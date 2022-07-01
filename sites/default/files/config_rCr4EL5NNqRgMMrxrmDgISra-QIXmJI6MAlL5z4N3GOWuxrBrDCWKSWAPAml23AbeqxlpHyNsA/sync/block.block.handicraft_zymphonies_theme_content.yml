@@ -1,0 +1,22 @@
+uuid: 057c4a94-2883-45aa-801a-54d905de6145
+langcode: es
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: C6SJ_v-rUxRJ9okCdW_ePk_zwdzPYaJYQ8xt2qsZ6Y8
+id: handicraft_zymphonies_theme_content
+theme: handicraft_zymphonies_theme
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

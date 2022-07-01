@@ -1,0 +1,22 @@
+uuid: bdc396db-d84f-4899-a43c-72696b702974
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: L5xzdpzc1yTYT3Vm1YoD9lAMqHSQFwP6NMGzHHopKPk
+id: handicraft_zymphonies_theme_breadcrumbs
+theme: handicraft_zymphonies_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

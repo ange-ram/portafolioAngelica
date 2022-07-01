@@ -1,0 +1,22 @@
+uuid: d6840eb8-63c2-4590-b40d-63c4ebfd3f18
+langcode: es
+status: false
+dependencies:
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: 7sPDMCTIcL4afsr8xSUwsDVdI6N1iFzDu5W8mafRRvM
+id: handicraft_zymphonies_theme_local_tasks
+theme: handicraft_zymphonies_theme
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

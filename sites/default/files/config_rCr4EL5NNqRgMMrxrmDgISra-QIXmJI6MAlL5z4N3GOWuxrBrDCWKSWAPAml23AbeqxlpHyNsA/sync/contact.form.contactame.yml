@@ -1,0 +1,12 @@
+uuid: 784df30f-6352-4ecd-aa28-2039a06686ef
+langcode: es
+status: true
+dependencies: {  }
+id: contactame
+label: Contacto
+recipients:
+  - ange.ramlean@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

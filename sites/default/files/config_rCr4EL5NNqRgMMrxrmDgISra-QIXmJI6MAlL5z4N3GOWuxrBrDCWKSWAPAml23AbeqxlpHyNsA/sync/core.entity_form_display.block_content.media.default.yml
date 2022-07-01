@@ -1,0 +1,24 @@
+uuid: faeccf6d-0669-4d96-80a9-a5feb5c372a5
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.media
+    - field.field.block_content.media.field_imagenes
+  module:
+    - media_library
+id: block_content.media.default
+targetEntityType: block_content
+bundle: media
+mode: default
+content:
+  field_imagenes:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+hidden:
+  info: true
+  langcode: true

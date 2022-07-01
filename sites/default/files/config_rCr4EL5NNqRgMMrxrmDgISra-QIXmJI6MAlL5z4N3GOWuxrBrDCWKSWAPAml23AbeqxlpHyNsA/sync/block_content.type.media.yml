@@ -1,0 +1,8 @@
+uuid: 132b57d2-a0b4-4688-b088-56bf7886a2d0
+langcode: es
+status: true
+dependencies: {  }
+id: media
+label: Media
+revision: 0
+description: ''

@@ -1,0 +1,8 @@
+uuid: 615c3038-3847-4187-96bd-aca34beeeda7
+langcode: es
+status: true
+dependencies: {  }
+id: proyectos
+label: proyectos
+revision: 0
+description: 'Titulo, texto, imagen'

@@ -1,0 +1,27 @@
+uuid: a486fb4b-d189-4d41-a70a-1effdda0b393
+langcode: es
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: uKjaI_yhgoVW2eGn3Ncs_xzyi2qESEkw-2OkNKR5gxU
+id: handicraft_zymphonies_theme_account_menu
+theme: handicraft_zymphonies_theme
+region: email
+weight: 11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: d1499386-e3f4-4f0a-b097-c34f95227376
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ce2ee193-75de-4417-9dcb-75df8237c98f'
+  module:
+    - block_content
+    - system
+  theme:
+    - handicraft_zymphonies_theme
+id: bloquesobremi
+theme: handicraft_zymphonies_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:ce2ee193-75de-4417-9dcb-75df8237c98f'
+settings:
+  id: 'block_content:ce2ee193-75de-4417-9dcb-75df8237c98f'
+  label: 'Sobre mi'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

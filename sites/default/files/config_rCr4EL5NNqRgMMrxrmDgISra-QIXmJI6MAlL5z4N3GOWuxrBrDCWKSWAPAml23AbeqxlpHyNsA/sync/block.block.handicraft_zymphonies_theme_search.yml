@@ -1,0 +1,23 @@
+uuid: cdc728fa-cf98-4b98-9803-5c44f7b4fdd2
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: xorcPTHkdh2zAC7k7KkEVl56P6X0659PPi2G4XBQVIs
+id: handicraft_zymphonies_theme_search
+theme: handicraft_zymphonies_theme
+region: search
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

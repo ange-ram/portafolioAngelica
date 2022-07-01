@@ -1,0 +1,20 @@
+uuid: 8361f13c-7028-471b-9a0e-0983d20a4a0e
+langcode: es
+status: true
+dependencies:
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: wHcV1KKGv9AnYcwyb7EDu6FQwghjik4NLfsJinQLygc
+id: handicraft_zymphonies_theme_page_title
+theme: handicraft_zymphonies_theme
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

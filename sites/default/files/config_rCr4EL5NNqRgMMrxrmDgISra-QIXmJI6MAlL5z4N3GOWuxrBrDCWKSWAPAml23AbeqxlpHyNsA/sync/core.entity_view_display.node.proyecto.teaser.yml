@@ -1,0 +1,33 @@
+uuid: fce9d101-5b6d-4242-9ee5-384003b6d388
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.proyecto.body
+    - field.field.node.proyecto.field_imagen
+    - node.type.proyecto
+  module:
+    - text
+    - user
+id: node.proyecto.teaser
+targetEntityType: node
+bundle: proyecto
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_imagen: true
+  langcode: true

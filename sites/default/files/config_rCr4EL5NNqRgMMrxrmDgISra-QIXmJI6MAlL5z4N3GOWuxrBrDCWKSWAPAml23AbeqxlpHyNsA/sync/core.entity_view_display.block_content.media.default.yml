@@ -1,0 +1,23 @@
+uuid: f111c8a5-308b-4ecf-abd4-7b5d75bdc47b
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.media
+    - field.field.block_content.media.field_imagenes
+id: block_content.media.default
+targetEntityType: block_content
+bundle: media
+mode: default
+content:
+  field_imagenes:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

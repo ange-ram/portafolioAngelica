@@ -1,0 +1,30 @@
+uuid: bbff7958-bfcb-4d0f-bb0b-accab0b9e2bf
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4984d6ab-3d28-4a64-8b09-681a728c2dcf'
+  module:
+    - block_content
+    - system
+  theme:
+    - handicraft_zymphonies_theme
+id: habilidadestexto
+theme: handicraft_zymphonies_theme
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:4984d6ab-3d28-4a64-8b09-681a728c2dcf'
+settings:
+  id: 'block_content:4984d6ab-3d28-4a64-8b09-681a728c2dcf'
+  label: 'Habilidades '
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

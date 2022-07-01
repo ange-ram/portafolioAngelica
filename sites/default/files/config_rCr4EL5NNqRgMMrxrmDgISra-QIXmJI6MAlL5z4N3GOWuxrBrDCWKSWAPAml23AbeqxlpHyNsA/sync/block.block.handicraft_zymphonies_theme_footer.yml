@@ -1,0 +1,27 @@
+uuid: 72f89713-a35f-47c4-8877-389539b98505
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - handicraft_zymphonies_theme
+_core:
+  default_config_hash: Em3Rt1jvhVge3FXViDdVO4R3eSKIRMuGZGReeSHfqrY
+id: handicraft_zymphonies_theme_footer
+theme: handicraft_zymphonies_theme
+region: auto_hidden_block
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
